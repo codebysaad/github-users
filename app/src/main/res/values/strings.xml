@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Github User</string>
+    <string name="dummy_username">\@sidiqpermana</string>
+    <string name="dummy_name">Sidiq Permana</string>
+    <string name="dummy_company">Nusantara Beta Studio</string>
+    <string name="dummy_location">Jakarta Indonesia</string>
+    <string name="followers">&#160;Followers</string>
+    <string name="following">&#160;Following</string>
+    <string name="desc_avatar_github_user">Avatar Github User</string>
+    <string name="repositories">&#160;Repositories</string>
+    <string name="open_on_github">Open in Github</string>
+    <string name="share">Share</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="title_search">Search</string>
+    <string name="message_dialog_exit_app">Are you sure to close this application?</string>
+    <string name="title_dialog_exit">Exit Application</string>
+    <string name="search_hint">Search Your Favorite User Here</string>
+    <string name="title_tab_followers">Followers</string>
+    <string name="title_tab_following">Following</string>
+    <string name="title_searching_user">Searching User</string>
+    <string name="title_details_user">Details User</string>
+    <string name="title_favorite_image_button">Image Button for Bookmark Item</string>
+    <string name="title_content_empty">Empty</string>
+    <string name="error_not_found">Not Found!</string>
+    <string name="title_about">About</string>
+    <string name="title_exit">Exit</string>
+    <string name="title_setting">Setting</string>
+    <string name="title_dark_mode">Dark Mode</string>
+    <string name="desc_icon_following">Icon Following</string>
+    <string name="desc_icon_repository">Icon Repository</string>
+    <string name="desc_icon_followers">Icon Followers</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_home">Home</string>
+    <string name="title_favorite">Favorite</string>
+    <string name="desc_button_favorite">Button Favorite</string>
+    <string name="desc_empty_state">Empty State</string>
+    <string name="empty_favorite_user">Empty Favorite User</string>
+</resources>

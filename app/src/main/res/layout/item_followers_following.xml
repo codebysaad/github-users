@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/margin_4"
+    android:layout_marginEnd="@dimen/margin_4"
+    android:layout_marginBottom="@dimen/margin_bottom_8"
+    app:cardCornerRadius="@dimen/corner_radius_16">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="@dimen/padding_8dp"
+        android:paddingTop="@dimen/padding_16"
+        android:paddingEnd="@dimen/padding_16"
+        android:paddingBottom="@dimen/padding_16">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circle_avatar"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:contentDescription="@string/desc_avatar_github_user"
+            app:civ_border_color="@android:color/holo_blue_dark"
+            app:civ_border_width="2dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/ic_baseline_person_24" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_start_16"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/circle_avatar"
+            app:layout_constraintTop_toTopOf="@+id/circle_avatar"
+            tools:text="@string/dummy_name" />
+
+        <Button
+            android:id="@+id/btn_open"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_start_16"
+            android:text="@string/open_on_github"
+            android:textColor="@color/green_700"
+            app:icon="@drawable/ic_baseline_open_in_browser_24"
+            app:iconTint="@color/green_700"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/circle_avatar"
+            app:layout_constraintTop_toBottomOf="@+id/tv_name"
+            app:strokeColor="@color/green_700"
+            app:strokeWidth="2dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
